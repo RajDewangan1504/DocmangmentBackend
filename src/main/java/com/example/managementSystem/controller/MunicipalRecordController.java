@@ -50,4 +50,15 @@ public class MunicipalRecordController {
                 .orElse(ResponseEntity.status(HttpStatus.NOT_FOUND).body(null));
     }
 
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<String> deleteRecord(@PathVariable String id) {
+        return municipalRecordRepository.findById(id)
+                .map(record -> {
+                    municipalRecordRepository.deleteById(id);
+                    return ResponseEntity.ok("Record with ID " + id + " deleted successfully.");
+                })
+                .orElse(ResponseEntity.status(HttpStatus.NOT_FOUND)
+                        .body("Record not found with ID " + id));
+    }
+
 }
