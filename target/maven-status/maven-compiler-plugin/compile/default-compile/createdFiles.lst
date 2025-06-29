@@ -1,0 +1,8 @@
+com\example\managementSystem\ManagementSystemApplication.class
+com\example\managementSystem\config\WebConfig.class
+com\example\managementSystem\dto\LoginRequest.class
+com\example\managementSystem\controller\AuthController$UserResponse.class
+com\example\managementSystem\controller\AuthController.class
+com\example\managementSystem\model\MunicipalRecord.class
+com\example\managementSystem\repository\MunicipalRecordRepository.class
+com\example\managementSystem\controller\MunicipalRecordController.class
