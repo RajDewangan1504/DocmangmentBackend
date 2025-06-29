@@ -88,6 +88,6 @@ public class MunicipalRecord {
     private String vidhansabhaName;
 
     // Add getters & setters (or use Lombok to reduce code)
-
+    
 
 }
