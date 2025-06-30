@@ -28,7 +28,7 @@ import org.springframework.http.HttpStatus;
 @RestController
 @RequestMapping("/api/municipal-records")
 // @CrossOrigin(origins = "*")
-// @CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "https://karyaprabandhan.vercel.app")
 public class MunicipalRecordController {
 
     @Autowired
