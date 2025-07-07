@@ -77,6 +77,8 @@ public class MunicipalRecord {
 
     private String physicalStatus;
 
+    private String progressPercentage;
+
     private String estimatedPhysicalAchievement;
 
     private String actualPhysicalAchievement;
